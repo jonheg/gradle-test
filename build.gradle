@@ -1,0 +1,24 @@
+apply {
+    plugin 'java'
+    plugin 'war'
+    plugin 'jetty'
+    plugin 'maven'
+    plugin 'idea'
+}
+
+sourceCompatibility = 1.6
+
+repositories {
+    mavenCentral()
+    mavenRepo name:'scala-releases', urls:'http://scala-tools.org/repo-releases/'
+}
+
+dependencies {
+
+
+
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '0.9'
+}
