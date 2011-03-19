@@ -1,1 +1,5 @@
 build/*
+*\.iws
+*\.iml
+*\.ipr
+.gradle/*
